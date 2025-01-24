@@ -101,7 +101,7 @@ const {
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
           newsletterJid: '120363304606757133@newsletter',
-          newsletterName: "𝐍𝐀𝐃𝐄𝐄𝐍-𝐌𝐃"",
+          newsletterName: "𝐍𝐀𝐃𝐄𝐄𝐍-𝐌𝐃™",
           serverMessageId: 999
      }
   }
