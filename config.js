@@ -11,7 +11,7 @@ MODE: process.env.MODE || "public", //private or public
 STATUES_REPLY: process.env.STATUES_REPLY || "true",
 AUTO_REACT: process.env.AUTO_REACT || "true",
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
-DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '94711451319' : process.env.DELETEMSGSENDTO, //ADD YOUR NUMBER
+DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '94728840491' : process.env.DELETEMSGSENDTO, //ADD YOUR NUMBER
 INBOX_BLOCK: process.env.INBOX_BLOCK || "false",
 AUTO_VOICE:"true" //true or false
 };
