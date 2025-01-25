@@ -233,7 +233,7 @@ await conn.sendMessage(user,{audio: {url: `https://github.com/tharumin/Alexa_Voi
     //  console.log('Message received and saved:', messageId);
     }
     
-    const delfrom = config.DELETEMSGSENDTO !=='94728840491' ? config.DELETEMSGSENDTO + '@s.whatsapp.net': from
+    const delfrom = config.DELETEMSGSENDTO !=='' ? config.DELETEMSGSENDTO + '@s.whatsapp.net': from
     function handleMessageRevocation(revocationMessage) {
     //const remoteJid = revocationMessage.message.protocolMessage.key.remoteJid;
      //const messageId = revocationMessage.message.protocolMessage.key.id;
