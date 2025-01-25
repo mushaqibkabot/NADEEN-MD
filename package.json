@@ -9,7 +9,7 @@
     "restart": "pm2 restart nadeen-md"
  },
   "dependencies": {
-    "@whiskeysockets/baileys": "6.7.8",
+    "@whiskeysockets/baileys": "6.7.9",
     "@adiwajshing/keyed-db": "^0.2.4",
     "pino": "^7.0.5",
     "pm2": "^5.2.0",
@@ -37,7 +37,7 @@
     "mongoose":"8.9.1",
     "wa-sticker-formatter":"4.4.4",
     "ytdl-core": "^4.11.5",
-    "@dark-yasiya/yt-dl.js": "latest",
+    "@dark-yasiya/yt-dl.js": "1.0.5",
     "child_process":"1.0.2",
     "ruhend-scraper":"8.0.3",
     "@mrnima/tiktok-downloader":"1.0.0",
