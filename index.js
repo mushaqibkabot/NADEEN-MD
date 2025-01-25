@@ -20,7 +20,6 @@ const axios = require('axios')
 const { File } = require('megajs')
 
 const ownerNumber = ['94711451319']
-const ownerNumber2 = ['94728840491']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/session/creds.json')) {
