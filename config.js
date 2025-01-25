@@ -6,12 +6,16 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "YsYlRQaa#heVle58By3R4QweJmw8AdzaAAd8wFawfToUY8mKvfcE", //put your session id
-MONGODB: process.env.MONGODB || "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority",
-MODE: process.env.MODE || "public", //private or public
-STATUES_REPLY: process.env.STATUES_REPLY || "true",
-AUTO_REACT: process.env.AUTO_REACT || "true",
-ANTI_DELETE: process.env.ANTI_DELETE || "true",
-DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO, //ADD YOUR NUMBER
-INBOX_BLOCK: process.env.INBOX_BLOCK || "false",
+MODE: process.env.MODE || "private", //private | public | groups | inbox
+STATUES_REPLY: process.env.STATUES_REPLY || "true", //true or false
+AUTO_REACT: process.env.AUTO_REACT || "true", //true or false
+ANTI_DELETE: process.env.ANTI_DELETE || "true", //true or false 
+DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '94728840491' : process.env.DELETEMSGSENDTO, //ADD YOUR NUMBER
+INBOX_BLOCK: process.env.INBOX_BLOCK || "false", //true or false
+READ_MESSAGE: process.env.READ_MESSAGE || "false", //true or false
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true", //true or false
+AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false", //true or false
+AUTO_TYPING: process.env.AUTO_TYPING || "false", //true or false
+AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true", //true or false
 AUTO_VOICE:"true" //true or false
 };
